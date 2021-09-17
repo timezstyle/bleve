@@ -28,8 +28,8 @@ package tokenmap
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/v2/analysis"
-	"github.com/blevesearch/bleve/v2/registry"
+	"github.com/timezstyle/bleve/v2/analysis"
+	"github.com/timezstyle/bleve/v2/registry"
 )
 
 const Name = "custom"

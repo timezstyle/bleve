@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/blevesearch/bleve/v2"
-	"github.com/blevesearch/bleve/v2/mapping"
 	"github.com/spf13/cobra"
+	"github.com/timezstyle/bleve/v2"
+	"github.com/timezstyle/bleve/v2/mapping"
 )
 
 var mappingPath, indexType, storeType string

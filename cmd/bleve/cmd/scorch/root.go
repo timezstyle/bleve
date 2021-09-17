@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/blevesearch/bleve/v2/index/scorch"
 	"github.com/spf13/cobra"
+	"github.com/timezstyle/bleve/v2/index/scorch"
 )
 
 var index *scorch.Scorch

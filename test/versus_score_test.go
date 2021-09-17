@@ -16,18 +16,19 @@ package test
 
 import (
 	"fmt"
-	index "github.com/blevesearch/bleve_index_api"
 	"io/ioutil"
 	"os"
 	"strconv"
 	"testing"
 
-	"github.com/blevesearch/bleve/v2"
-	"github.com/blevesearch/bleve/v2/document"
-	"github.com/blevesearch/bleve/v2/index/scorch"
-	"github.com/blevesearch/bleve/v2/index/upsidedown"
-	"github.com/blevesearch/bleve/v2/mapping"
-	"github.com/blevesearch/bleve/v2/search"
+	index "github.com/blevesearch/bleve_index_api"
+
+	"github.com/timezstyle/bleve/v2"
+	"github.com/timezstyle/bleve/v2/document"
+	"github.com/timezstyle/bleve/v2/index/scorch"
+	"github.com/timezstyle/bleve/v2/index/upsidedown"
+	"github.com/timezstyle/bleve/v2/mapping"
+	"github.com/timezstyle/bleve/v2/search"
 )
 
 func TestDisjunctionSearchScoreIndexWithCompositeFields(t *testing.T) {

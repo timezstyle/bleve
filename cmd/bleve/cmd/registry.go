@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/blevesearch/bleve/v2/registry"
 	"github.com/spf13/cobra"
+	"github.com/timezstyle/bleve/v2/registry"
 )
 
 // registryCmd represents the registry command

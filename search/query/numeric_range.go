@@ -17,10 +17,10 @@ package query
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/v2/mapping"
-	"github.com/blevesearch/bleve/v2/search"
-	"github.com/blevesearch/bleve/v2/search/searcher"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/timezstyle/bleve/v2/mapping"
+	"github.com/timezstyle/bleve/v2/search"
+	"github.com/timezstyle/bleve/v2/search/searcher"
 )
 
 type NumericRangeQuery struct {

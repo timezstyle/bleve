@@ -17,8 +17,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/v2/index/upsidedown"
 	"github.com/spf13/cobra"
+	"github.com/timezstyle/bleve/v2/index/upsidedown"
 )
 
 // dumpFieldsCmd represents the dumpFields command

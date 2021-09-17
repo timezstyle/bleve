@@ -17,13 +17,14 @@ package mapping
 import (
 	"encoding/json"
 	"fmt"
+
 	index "github.com/blevesearch/bleve_index_api"
 
-	"github.com/blevesearch/bleve/v2/analysis"
-	"github.com/blevesearch/bleve/v2/analysis/analyzer/standard"
-	"github.com/blevesearch/bleve/v2/analysis/datetime/optional"
-	"github.com/blevesearch/bleve/v2/document"
-	"github.com/blevesearch/bleve/v2/registry"
+	"github.com/timezstyle/bleve/v2/analysis"
+	"github.com/timezstyle/bleve/v2/analysis/analyzer/standard"
+	"github.com/timezstyle/bleve/v2/analysis/datetime/optional"
+	"github.com/timezstyle/bleve/v2/document"
+	"github.com/timezstyle/bleve/v2/registry"
 )
 
 var MappingJSONStrict = false
@@ -107,10 +108,10 @@ func (im *IndexMappingImpl) AddCustomTokenFilter(name string, config map[string]
 // use their metadata to fill configuration entries:
 //
 //   import (
-//       "github.com/blevesearch/bleve/v2/analysis/analyzer/custom"
-//       "github.com/blevesearch/bleve/v2/analysis/char/html"
-//       "github.com/blevesearch/bleve/v2/analysis/token/lowercase"
-//       "github.com/blevesearch/bleve/v2/analysis/tokenizer/unicode"
+//       "github.com/timezstyle/bleve/v2/analysis/analyzer/custom"
+//       "github.com/timezstyle/bleve/v2/analysis/char/html"
+//       "github.com/timezstyle/bleve/v2/analysis/token/lowercase"
+//       "github.com/timezstyle/bleve/v2/analysis/tokenizer/unicode"
 //   )
 //
 //   m := bleve.NewIndexMapping()

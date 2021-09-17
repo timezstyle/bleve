@@ -22,8 +22,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/blevesearch/bleve/v2/search"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/timezstyle/bleve/v2/search"
 )
 
 func TestRegexpSearchUpsideDown(t *testing.T) {

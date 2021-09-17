@@ -19,8 +19,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/blevesearch/bleve/v2"
 	"github.com/spf13/cobra"
+	"github.com/timezstyle/bleve/v2"
 )
 
 var cfgFile string
